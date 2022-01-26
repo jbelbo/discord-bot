@@ -6,7 +6,7 @@ const bot = new Client({
   intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES],
 })
 const targets = ['AnRa', 'CEO', 'Tony']
-const responses = ['No seas pelotudo']
+const responses = ['No seas pelotudo @herbrando']
 
 bot.on('ready', () => {
   console.info(`Logged in as ${bot.user.tag}`)
